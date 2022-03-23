@@ -172,7 +172,7 @@ miscSec:addButton("Updated & Edited by U8K50 & adrisin", function()
     print("ASD")
 end)
 miscSec:addButton("Discord: discord.gg/exploitcat", function() 
-    print("ASD")
+    setclipboard('https://www.discord.gg/exploitcat')
 end)
  
 miscSec:addKeybind("Keybind", Enum.KeyCode.RightControl, function()
