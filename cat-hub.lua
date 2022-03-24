@@ -30,6 +30,17 @@ end)
 
 
 Hub:Section("--------------")
+----------------------------------------------------------------------------------------------------
+--Credits
+local Credits = library:CreateWindow("Credits")
+Credits:Section("Credits:")
+Credits:Section("Made By U8K50")
+Credits:Section("Discord:")
+local discord = Credits:Button("discord.gg/exploitcat", function()
+ 
+Credits:Section("Credits:")
+Credits:Section("Credits:")
+
 
 
 -- Toggable GUI Key
