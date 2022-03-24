@@ -16,6 +16,15 @@ local Arsenal = Hub:Button("Arsenal Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main", true))()
 end)
 
+local Flee = Hub:Button("Flee the Facility", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifty96/ftfgui/main/ftfgui", true))()
+end)
+
+local Infinite = Hub:Button("Infinite Yield", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+
 Hub:Section("--------------")
 
 
