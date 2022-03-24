@@ -1,0 +1,43 @@
+local player = game.Players.LocalPlayer
+local library = loadstring(game:HttpGet("https://pastebin.com/raw/JsdM2jiP",true))()
+library.options.underlinecolor = "rainbow"
+
+
+
+local Hub = library:CreateWindow("Cat Hub")
+Hub:Section("Hubs/Scripts:")
+
+local Saza = Hub:Button("Saza Hub", function()
+_G.Color = Color3.fromRGB(255, 255, 255)
+loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
+end)
+
+Hub:Section("--------------")
+
+
+-- Toggable GUI Key
+Hub:Bind("Toggle GUI Key",
+{flag = "Toggle", owo = true},
+function()
+library.toggled = not library.toggled;
+for i, data in next, library.queue do
+local pos = (library.toggled and data.p or UDim2.new(-1, 0, -0.5,0))
+data.w:TweenPosition(pos, (library.toggled and 'Out' or 'In'), 'Quad', 0.15, true)
+wait();
+end
+end)
+
+-- Destroy GUI
+local Kill = Hub:Button("Destroy GUI", function()
+game:GetService("CoreGui").ScreenGui:Destroy()
+end)
+
+
+-- Anti-AFK
+local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:connect(
+function()
+vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+wait(1)
+vu:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+end)
