@@ -37,11 +37,13 @@ Credits:Section("Credits:")
 Credits:Section("Made By U8K50")
 Credits:Section("Discord:")
 local discord = Credits:Button("discord.gg/exploitcat", function()
- 
-Credits:Section("Credits:")
-Credits:Section("Credits:")
-
-
+setclipboard('https://www.discord.gg/exploitcat
+end)
+Credits:Section("---------------")
+Credits:Section("All Scripts Used Here")
+Credits:Section("have Credits in them.")
+Credits:Section("If you have a")
+Credits:Section("Problem, Please DM Us")
 
 -- Toggable GUI Key
 Hub:Bind("Toggle GUI Key",
