@@ -12,8 +12,12 @@ _G.Color = Color3.fromRGB(255, 255, 255)
 loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
 end)
 
-local HoHo = HUb:Button("HoHo Hub", function()
+local HoHo = Hub:Button("HoHo Hub", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+local Mukuro = Hub:Button("Mukuro", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 end)
 
 local Arsenal = Hub:Button("Arsenal Script", function()
