@@ -16,7 +16,7 @@ local HoHo = Hub:Button("HoHo Hub", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
-local Mukuro = Hub:Button("Mukuro", function()
+local Mukuro = Hub:Button("Mukuro Hub", function()
 loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 end)
 
