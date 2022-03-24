@@ -12,6 +12,10 @@ _G.Color = Color3.fromRGB(255, 255, 255)
 loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
 end)
 
+local Ninja = Hub:Button("Ninja Legends", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/exploitscat/Roblox-Scripts/main/Ninja-Legends.lua")()
+end)
+
 local HoHo = Hub:Button("HoHo Hub", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
