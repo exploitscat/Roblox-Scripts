@@ -43,6 +43,10 @@ end)
 
 Hub:Section("--------------")
 ----------------------------------------------------------------------------------------------------
+
+--Supported Scripts Tab
+
+----------------------------------------------------------------------------------------------------
 --Credits
 local Credits = library:CreateWindow("Credits")
 Credits:Section("Credits:")
@@ -57,6 +61,7 @@ Credits:Section("have Credits in them.")
 Credits:Section("If you have a")
 Credits:Section("Problem, Please DM Us")
 
+----------------------------------------------------------------------------------------------------
 
 -- Toggable GUI Key
 Hub:Bind("Toggle GUI Key",
