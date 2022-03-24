@@ -12,6 +12,10 @@ _G.Color = Color3.fromRGB(255, 255, 255)
 loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
 end)
 
+local HoHo = HUb:Button("HoHo Hub", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
 local Arsenal = Hub:Button("Arsenal Script", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main", true))()
 end)
