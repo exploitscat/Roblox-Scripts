@@ -14,7 +14,7 @@ local UICorner_4 = Instance.new("UICorner")
 
 --Properties:
 
-ScreenGui.Parent = game.Workspace
+ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 main.Name = "main"
@@ -85,3 +85,8 @@ DestroyButton.TextSize = 14.000
 DestroyButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 
 UICorner_4.Parent = DestroyButton
+
+-------------------------------------------------------------------------------
+DestroyButton.MouseButton1Down:connect(function()
+game:GetService("CoreGui").ScreenGui:Destroy()
+end)
