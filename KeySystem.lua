@@ -87,6 +87,14 @@ DestroyButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 UICorner_4.Parent = DestroyButton
 
 -------------------------------------------------------------------------------
-DestroyButton.MouseButton1Down:connect(function()
+DestroyButton.MouseButton1Down:connect(function() 
 game:GetService("CoreGui").ScreenGui:Destroy()
+end)
+
+script.Parent.FocusLost:Connect(function(enter)
+script.Parent.FocusLost:Connect(function(enter)
+        if script.Parent.Text == ‘Password’ then
+        print(‘sucess’)
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/exploitscat/Roblox-Scripts/main/cat-hub.lua")()
+        end
 end)
