@@ -20,8 +20,9 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 main.Name = "main"
 main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(72, 72, 72)
-main.Position = UDim2.new(0.314037621, 0, 0.23197493, 0)
+main.Position = UDim2.new(0.5, 0.5)
 main.Size = UDim2.new(0, 256, 0, 171)
+main.AnchorPoint = UDim2.new(0.5, 0.5)
 
 EnterKeyLabel.Name = "EnterKeyLabel"
 EnterKeyLabel.Parent = main
