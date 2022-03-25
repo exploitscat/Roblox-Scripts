@@ -12,7 +12,7 @@ local UICorner_2 = Instance.new("UICorner")
 
 --Properties:
 
-ScreenGui.Parent = game.CoreGui
+ScreenGui.Parent = game.Players.LocalPlayer.PlayerGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
@@ -83,7 +83,6 @@ local function XKCQPNL_fake_script() -- KeyHereTextBox.LocalScript
 		if script.Parent.Text == game:HttpGet("https://raw.githubusercontent.com/exploitscat/Roblox-Scripts/main/Key.txt") then
 			print("test")
 			loadstring(game:HttpGet"https://raw.githubusercontent.com/exploitscat/Roblox-Scripts/main/cat-hub.lua")()
-			game:GetService("CoreGui").ScreenGui:Destroy()
 		end
 		end)
 end
