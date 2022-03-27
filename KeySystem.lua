@@ -70,7 +70,7 @@ local function XKCQPNL_fake_script() -- KeyHereTextBox.LocalScript
 	local script = Instance.new('LocalScript', KeyHereTextBox)
 
 	script.Parent.FocusLost:Connect(function(enter)
-		if script.Parent.Text == 'test' then
+		if script.Parent.Text == 'FIRST-DAY' then
 			loadstring(game:HttpGet"https://raw.githubusercontent.com/exploitscat/Roblox-Scripts/main/cat-hub.lua")()
 			game:GetService("CoreGui").ScreenGui:Destroy()
 			end
